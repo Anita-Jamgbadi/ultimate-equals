@@ -128,7 +128,7 @@
 
 .signup {
     max-width: 100%;
-    min-height: 90%;
+    max-height: 100%;
 }
 
 .mobile-signup {
@@ -369,6 +369,8 @@
     background-color: rgb(13, 13, 82);
     padding-top: 1%;
     padding-bottom: 1%;
+    position: absolute;
+    bottom: ;
 }
 
 .wrapper {
@@ -463,6 +465,319 @@
     padding-left: 6%;
 }
 
+.main-heading {
+    color: rgb(13, 13, 82);
+    text-align: center;
+    text-emphasis: 2em;
+}
+
+.hotel-card .card-title h2 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+
+
+.hotel-card .card-text p span {
+    display: inline-block;
+    margin-left: 5em;
+    color: rgb(15, 15, 112);
+}
+
+.sub-heading {
+    display: block;
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hotel-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.hotel-img img {
+    flex-shrink: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.book-hotel span {
+    color: grey;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.book-hotel button {
+    width: 50%;
+    background-color: rgb(15, 15, 112);
+    border-color: inherit;
+}
+
+.success-page{
+    text-align: center;
+}
+
+.success-page h1{
+    margin-bottom: 5px;
+    color: rgb(38, 167, 26);
+}
+
+.success-page i{
+    display: block;
+    color: rgb(38, 167, 26);
+    font-size: larger;
+    text-align: center;
+}
+
+.hotel-landing .row {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.hotel-card {
+    width: 100%;
+    text-align: center;
+}
+
+.hotel-card button {
+    width: 70%;
+    border: 1px solid rgb(15, 15, 112);
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(15, 15, 112);
+    padding: 3px;
+}
+
+.hotel-card .card-img-top {
+    max-height: 250px;
+}
+
+.hotel-msg {
+    background-color: rgb(13, 13, 82);
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 7.4em;
+    padding-right: 3em;
+    padding-left: 3em;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.car-year {
+    border: 1px solid rgb(15, 15, 112);
+    padding: 5px;
+    width: fit-content;
+    border-radius: 3px;
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+}
+
+.modal-button {
+    width: 70%;
+    border: 1px solid rgb(15, 15, 112);
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(15, 15, 112);
+    padding: 3px;
+}
+
+.modal-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.hotel-card .card-text span {
+    padding: 200000em;
+}
+
+.hotel-modal .modal-title {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.hotel-modal-sub-heading {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.hotel-modal-img-cont {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.hotel-modal-img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.loan-form {
+    background-color: rgb(13, 13, 82);
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 7.4em;
+    padding-right: 3em;
+    padding-left: 3em;
+    height: 100%;
+    overflow: hidden;
+}
+
+.loan-duration button {
+    border: 2px solid white;
+    color: white;
+    background-color: inherit;
+}
+
+.loan-btn {
+    width: 40%;
+    background-color: white;
+    color: rgb(13, 13, 82);
+}
+
+.landing-img {
+    max-width: 100%;
+    height: auto;
+    background-image: url(images/Create_an_account.png);
+    background-size: 100% 100%;
+}
+
+.hotellanding-img {
+    max-width: 100%;
+    height: auto;
+    background-image: url(images/Book_an_hotel.png);
+    background-size: 100% 100%;
+}
+
+.loan-success-img {
+    max-width: auto;
+    min-height: 100%;
+    background-image: url(images/get_a_loan.png);
+    background-size: 100% 100%;
+}
+
+.loan-success .row{
+    height: 100%;
+}
+
+.buy-property, .buy-property .row {
+    height: 100%;
+}
+
+.carsucess, .carsucess .row {
+    height: 100%;
+}
+
+.loan-body {
+    height: 100%;
+}
+
+.loan-img {
+    max-width: 100%;
+    height: auto;
+    background-image: url(images/get_a_loan.png);
+    background-size: 100% 100%;
+}
+
+.blog-card .card-img-top {
+    height: 15vw;
+    object-fit: cover;
+}
+
+.blog-container {
+    margin-top: 5em;
+}
+
+.article-img-cont {
+    text-align: center;
+}
+
+.article-image {
+    width: 80%;
+    height: 20vw;
+}
+
+.article-heading {
+    text-align: center;
+}
+
+.article-sub-heading {
+    font-weight: 300;
+    color: rgb(15, 15, 112);
+}
+
+.article-content {
+    font-size: large;
+}
+
+.recent-posts-heading {
+    font-size: larger;
+    font-weight: 300;
+    color: rgb(15, 15, 112);
+}
+
+.recent-posts-article-page div {
+    margin-bottom: 8px;
+}
+
+.comments {
+    color: rgb(15, 15, 112);
+    font-size: larger;
+    font-weight: 300;
+}
+
+.search-cont {
+    text-align: center;
+}
+
+.car-search {
+    width: 70%;
+    background-color: white;
+    box-shadow: 2px 2px 2px #b8b2b2;
+    text-align: center;
+    padding: 7px;
+    display: inline-block;
+}
+
+.car-search input {
+    border: 1px solid #b8b2b2;
+}
+
+.car-search button {
+    border: 1px solid rgb(15, 15, 112);
+    border-radius: 3px;
+    background-color: rgb(15, 15, 112);
+    color: white;
+}
+
+.car-search input {
+    width: 50%;
+    border-radius: 3px;
+}
+
+.r-home {
+    border: 1px solid rgb(38, 167, 26);
+    background-color: rgb(38, 167, 26);
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.property-btn {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.property-btn a {
+    text-decoration: none;
+    color: rgb(13, 13, 82);
+}
 @media screen and (max-width: 992px) {
     .mynav {
       text-align: right;
@@ -537,11 +852,70 @@
         overflow: hidden;
     }
 
-    .signup {
-        max-width: 100%;
-        min-height: 90%;
+    .loan-form {
+        background-color: rgba(151, 146, 146, 0.2);
+        color: white;
+        padding-top: 3em;
+        padding-bottom: 7.4em;
+        padding-right: 3em;
+        padding-left: 3em;
+        /*height: fit-content;*/
+        overflow: hidden;
+    }
+
+    .signup .row {
+        min-width: 100%;
+        min-height: 100%;
         background-image: url(images/Create_an_account.png);
-        background-size: 100% 100%
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hotel-landing .row {
+        min-width: 100%;
+        min-height: 100%;
+        background-image: url(images/Book_an_hotel.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loan-success .row {
+        min-width: 100%;
+        min-height: 100%;
+        background-image: url(images/get_a_loan.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loan-bg .row {
+        min-width: 100%;
+        min-height: 100%;
+        background-image: url(images/get_a_loan.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loan-btn {
+        align-self: center;
+    }
+
+    .hotel-msg {
+        background-color: rgba(151, 146, 146, 0.2);
+        color: white;
+        padding-top: 3em;
+        padding-bottom: 7.4em;
+        padding-right: 3em;
+        padding-left: 3em;
+        height: 100%;
+        overflow: hidden;
     }
     
 }

@@ -39,31 +39,40 @@
 
         </nav>
 
-        <div class="container-fluid signup">
+        <div class="container-fluid signup buy-property">
                 <div class="row">
                     
-                        <div class="col-12 col-lg-6 mobile-signup gx-0">
-                            <p class="lead">Join our circle</p>
+                        <div class="col-12 col-lg-6 gx-0 loan-form">
+                            <h2><b>Buy properties with ease and comfort</b></h2>
+                            <h6>Invest your money in real estate without having to deal with agents or fraudsters.
+                                Choose properties that suite your taste from the comfort of your home.
+                            </h6>
+
                             <form>
                                 <div class="mb-3">
-                                    <label for="Fname" class="form-label">Fullname</label>
-                                    <input type="text" class="form-control" id="inputemail">
+                                    <label for="landsize">Choose size:&nbsp;</label>
+                                    <select id="landsize" name="land">
+                                      <option value="volvo">1 acre</option>
+                                      <option value="saab">2 acres</option>
+                                      <option value="fiat">3 acres</option>
+                                      <option value="audi">4 acres</option>
+                                    </select>                                
                                 </div>
                                 <div class="mb-3">
-                                <label for="inputemail" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="Fname">
+                                    <label for="landsize">Select location:&nbsp;</label>
+                                    <select id="landsize" name="land">
+                                      <option value="volvo">Edo state</option>
+                                      <option value="saab">Lagos state</option>
+                                      <option value="fiat">Kogi state</option>
+                                      <option value="audi">FCT</option>
+                                    </select> 
                                 </div>
-                                <div class="mb-3">
-                                <label for="inputpassword" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="inputpassword">
-                                </div>
-                                <a href="signin.html">
-                                    <button type="submit" class="btn btn-primary">Create an account</button>
-                                </a>
-                            </form>
-                            <p>
-                                Already part of our circle? <h4> <a href="signin.html">login</a></h4>
-                            </p>
+                                <button class="property-btn">
+                                    <a href="selectproperty.html">
+                                        Search
+                                    </a>
+                                </button>
+
                         </div>
 
                         <div class="col-12 col-lg-6 gx-0 d-none d-lg-block signup-img">

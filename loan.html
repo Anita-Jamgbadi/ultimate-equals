@@ -16,7 +16,6 @@
                 <a class="navbar-brand" href="index.html">
                     <img src="images/Logos/ultimate.png" class="img-fluid ultimatebrand" alt="">
                 </a>
-
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -39,39 +38,50 @@
 
         </nav>
 
-        <div class="container-fluid signup">
-                <div class="row">
-                    
-                        <div class="col-12 col-lg-6 mobile-signup gx-0">
-                            <p class="lead">Join our circle</p>
-                            <form>
-                                <div class="mb-3">
-                                    <label for="Fname" class="form-label">Fullname</label>
-                                    <input type="text" class="form-control" id="inputemail">
-                                </div>
-                                <div class="mb-3">
-                                <label for="inputemail" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="Fname">
-                                </div>
-                                <div class="mb-3">
-                                <label for="inputpassword" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="inputpassword">
-                                </div>
-                                <a href="signin.html">
-                                    <button type="submit" class="btn btn-primary">Create an account</button>
-                                </a>
-                            </form>
-                            <p>
-                                Already part of our circle? <h4> <a href="signin.html">login</a></h4>
-                            </p>
-                        </div>
-
-                        <div class="col-12 col-lg-6 gx-0 d-none d-lg-block signup-img">
-                        </div>
+        <div class="container-fluid loan-bg hotel-landing">
+            <div class="row">
                 
-                </div>               
-        </div>
+                <div class="col-12 col-lg-6 gx-0 loan-form">
+                    <h2><b>Apply for loan</b></h2>
+                    <h6>Our interest rate is 8% per annum</h6>
+                    <form>
+                        <div class="mb-3">
+                            <label for="Fname" class="form-label">Fullname</label>
+                            <input type="text" class="form-control" id="inputemail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputemail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="Fname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="loanamount" class="form-label">Loan amount</label>
+                            <input type="text" class="form-control" id="loanamount">
+                        </div>
+                        <div class="mb-3">
+                            <label for="repayment" class="form-label">Amount to be repaid</label>
+                            <input type="" class="form-control" id="repayment">
+                        </div>    
+                        <div>
+                            <label for="collateral" class="form-label">Collateral</label>
+                            <input type="text" class="form-control" id="collateral">
+                        </div>
+                        <div class="mb-3 mt-3 loan-duration">
+                            <button type="submit" class="btn"> 3 months </button>
+                            <button type="submit" class="btn"> 6 months </button>
+                            <button type="submit" class="btn"> 1 year </button>
+                            <button type="submit" class="btn"> 2 years </button>
+                            <button type="submit" class="btn"> 3 years </button>
+                        </div>
 
+                        <a href="loansuccess.html" class="btn loan-btn">Apply</a>
+                    </form>
+
+                </div>
+
+                <div class="col-12 col-lg-6 gx-0 d-none d-lg-block loan-img"></div>
+            
+            </div>               
+    </div>
 
 
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
